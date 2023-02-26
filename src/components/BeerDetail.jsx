@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
-import { useParams } from 'react-router-dom'
-import NavBar from './NavBar'
-import 'bootstrap/dist/css/bootstrap.css'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { useParams } from 'react-router-dom';
+import NavBar from './NavBar';
+import 'bootstrap/dist/css/bootstrap.css';
 
   function BeerDetail() {
     const {id} = useParams ()

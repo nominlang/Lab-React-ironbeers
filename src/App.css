@@ -1,42 +1,44 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+
+input {
+  box-sizing: border-box;
+  height: 39px;
+  width: 426px;
+  border: 1px solid #E6E6E6;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.newBeerBtn {
+  height: 45px;
+  width: 350px;
+  border-radius: 20px;
+  background-color: rgb(70, 209, 255);
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  background-color: rgb(70, 209, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h6 {
+  display: flex;
+  justify-content:flex-start;
+  margin-left: 20px;
+  font-weight: bold;
 }
 
-.card {
-  padding: 2em;
+.description {
+  box-sizing: border-box;
+  height: 39px;
+  width: 426px;
+  border: 1px solid #E6E6E6;
+  background-color: white;
+  border-radius: 20px;
+  padding: 100px;
 }
 
-.read-the-docs {
-  color: #888;
-}
